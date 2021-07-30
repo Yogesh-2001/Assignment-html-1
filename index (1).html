@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgb(214, 218, 13),rgb(240, 168, 53));
+        }
+        h1{
+            text-align: center;
+        }
+        #info{
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 60%;
+            margin:2px auto;
+            
+        }
+        tr{
+            background-color: blue;
+        }
+        td, th {
+            border: 2px solid #000000;
+            text-align: left;
+            padding: 10px;
+            text-align:center
+        }
+
+        tr:nth-child(even) {
+            background-color: #e2ae1e;
+        }
+        img{
+            width: 150px;  
+            margin: : 2px auto;
+        }
+        
+  
+    </style>
+</head>
+<body>
+    <h1>
+        INFORMATION TABLE
+    </h1>
+    <table id="info">
+        <tr>
+          <th>NAME</th>
+          <th>EMAIL-ID</th>
+          <th>PROFILE PIC</th>
+        </tr>
+        <tr>
+          <td>Tejal Rane</td>
+          <td>tejal28rane@gmail.com</td>
+          <td><img src="https://www.shareicon.net/data/2016/07/26/802033_user_512x512.png"></td>
+        </tr>
+        <tr>
+          <td>xyz</td>
+          <td>xyz@gmail.com</td>
+          <td><img src="https://cdn2.iconfinder.com/data/icons/flat-style-svg-icons-part-1/512/users_group_people_friends-512.png"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
